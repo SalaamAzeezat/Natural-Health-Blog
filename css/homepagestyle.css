@@ -234,6 +234,7 @@ footer a{
     grid-row: 2/3;
     grid-column: 1/2;
     border: 2px solid transparent;
+    overflow: hidden;
 }
 #main{
     grid-row: 3/4;
@@ -266,4 +267,5 @@ footer a{
     grid-row: 4/5;
     grid-column: 1/2;
     border: 2px solid transparent;
+}
 }

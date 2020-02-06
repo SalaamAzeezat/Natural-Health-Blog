@@ -95,3 +95,43 @@ footer{
 footer a{
     text-decoration: none;
 }    
+.card-image{
+    width:150px;
+    height: 150px;
+    float:left;
+}
+.card-details {
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 0px;
+    }
+.card-details h2{
+    margin: 0px;
+}    
+.card-details a {
+    align-self: flex-start;
+}
+.social{
+    float: right;
+}
+.icon-bar a{
+    display:inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+.facebook{
+    background-image: #3b5998;
+
+}
+.twitter{
+    color: #55acee;
+    text-decoration: white;
+}
+.linkedin{
+    background: #007bb5;
+    color: white;
+}
+.share{
+    background: rgb(243, 66, 66)inherit;
+    color: black;
+}
