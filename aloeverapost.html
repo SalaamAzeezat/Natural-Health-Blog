@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Natural Health Blog</title>,
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width initial scale=1">
-<link rel="stylesheet" href="css/aloeverapoststyle.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Natural Health Blog</title>,
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial scale=1">
+    <link rel="stylesheet" href="css/aloeverapoststyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="container">
-        <header class="card" id="topbar"> 
+        <header class="card" id="topbar">
             <h2>Natural Health Blog</h2>
         </header>
+        <nav class="card" id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#healthrecipes">Health Recipes</a></li>
+                <li><a href="#healthnews">Health News</a></li>
+                <li><input type="text" placeholder="Search...."><button class="btn" type="button">Search</button></li>
+            </ul>
+       </nav>
         <div class="card" id="main">
             <section>
                 <article>
                     <img src="images/aloevera2.jpg" alt="Aloe vera">
                     <h2>ALOE VERA GRUEL INITIAL TREATMENT IN HIV INFECTION</h2>
                     <h3></h3>
-                    <p>Human Immunodeficiency virus (HIV) - a lentivirus that causes HIV infection and Acquired Immune Deficiency Syndrome.It is a condition in humans in which progressive failure of the immune system allows life threatening infections and cancers to thrive (Ram and Ellen, 2004).
+                    <p>Human Immunodeficiency virus (HIV) - a lentivirus that causes HIV infection and Acquired Immune
+                        Deficiency Syndrome.It is a condition in humans in which progressive failure of the immune
+                        system allows life threatening infections and cancers to thrive (Ram and Ellen, 2004).
                     </p>
-                    <p>HIV infection leads to low levels of CD4+ T cells through apoptosis of uninfected bystander cells, direct viral killing of infected cells, and killing of infected CD4+ T cells by CD8 cytotoxic lymphocytes that recognize infected cells.  
+                    <p>HIV infection leads to low levels of CD4+ T cells through apoptosis of uninfected bystander
+                        cells, direct viral killing of infected cells, and killing of infected CD4+ T cells by CD8
+                        cytotoxic lymphocytes that recognize infected cells.
                         (Garg et al., 2012)
                     </p>
                     <h3>MODE OF TRANSMISSION OF HIV INFECTION</h3>
@@ -33,42 +48,65 @@
                             <li>Medical procedures (e.g. transfusions, exposure to contaminated instruments)</li>
                         </ul>
                     </p>
+                    </p>
+                    <h3>MODE OF TRANSMISSION OF HIV INFECTION</h3>
+                    <p>
+                        <ul>
+                            <li>HIV Infection may initially be asymptomatic or cause acute retroviral syndrome.</li>
+                            <li>Fever with intermittent sweats</li>
+                            <li>Diarrhoea</li>
+                            <li>Fatigue</li>
+                            <li>Lymphadenopathy</li>
+                            <li>Herpes zoster</li>
+                            <li>White plaques due to oral candidiasis</li>
+                        </ul>
+                    </p>
                 </article>
+                <div class="button">
+                    <button type="button">Next Page</button>
+                    <button type="button">1</button>
+                    <button type="button">2</button>
+                </div>
             </section>
         </div>
         <div class="card" id="sidebar-top">
             <section>
                 <article>
-                    <img src="avatar" alt="Avatar">
-                    <h2>About Author</h2>
-                    <p></p>
+                    <img src="images/Salaam Azeezat.jpg" alt="Author" class="card-image"/>
+                    <div class="card-details">
+                        <header class="card-title">
+                            <h2>About Author</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </header>
+                        <footer class="card-ft">
+                            <p>You can Follow us on:</p>
+                            <div class="icon-bar">
+                                <a href="#" class="share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a>
+                                <a href="#" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            </div>
+                        </footer>
+                    </div>
                 </article>
-            <footer>
-                <p>Please Follow me on:</p>
-                <div class="icon-bar">
-                    <a href="#" class="share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a>
-                    <a href="#" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                </div>
-            </footer>
-        </section>
-    </div>
-    <div class="card" id="sidebar-bottom">
-        <h3>You might be interested in:</h3>
-        <ul>
-            <li><a href="#">How to make a Bath Bomb</a></li>
-            <li><a href="#">Saliva: A Diagnostic Fluid</a></li>
-            <li><a href="#">Mercury in Beauty Products</a></li>
-            <li><a href="#">How to make Facial Cream</a></li>
-        </ul>
-    </div>
-    <footer class="card" id="footer-main">
-        <a href="#">About Us</a>
-        <a href="#">Advertising</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Contact Us</a>
-        <i class="fa fa-copyright" aria-hidden="true">Copyright 2020 NaturalHealthBlog.com</i>     
-   </footer>
+            </section>
+        </div>
+        <div class="card" id="sidebar-bottom">
+            <h3>You might be interested in:</h3>
+            <ul>
+                <li><a href="#">How to make a Bath Bomb</a></li>
+                <li><a href="#">Saliva: A Diagnostic Fluid</a></li>
+                <li><a href="#">Mercury in Beauty Products</a></li>
+                <li><a href="#">How to make Facial Cream</a></li>
+            </ul>
+        </div>
+        <footer class="card" id="footer-main">
+            <a href="#">About Us</a>
+            <a href="#">Advertising</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+            <i class="fa fa-copyright" aria-hidden="true">Copyright 2020 NaturalHealthBlog.com</i>
+        </footer>
 </body>
+
 </html>

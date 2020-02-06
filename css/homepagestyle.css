@@ -117,7 +117,7 @@ section{
     align-self: flex-start;
 }
 .social{
-    float: right;
+    float: right; 
 }
 .icon-bar a{
     display:inline-block;
@@ -245,8 +245,7 @@ footer a{
     justify-content: center;  
 }
 #sidebar-top{
-    display: grid;
-    float:left;
+    display: flex;
     width: 50%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -257,8 +256,7 @@ footer a{
     border: 2px solid transparent;
 }
 #sidebar-bottom{
-    display: grid;
-    float:right;
+    display: flex;
     width: 50%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
