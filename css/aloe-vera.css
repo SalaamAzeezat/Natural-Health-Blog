@@ -233,6 +233,7 @@ footer a{
     header ul li a{
         padding: 5px;
         font-size: 12px;
+        text-decoration: none;
     }
     header .menu-toggle{
         display: block;
@@ -347,6 +348,7 @@ footer a{
     header ul li a{
         padding: 5px;
         font-size: 12px;
+        text-decoration: none;
     }
     header .menu-toggle{
         display: block;
